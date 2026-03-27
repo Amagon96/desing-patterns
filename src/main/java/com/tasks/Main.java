@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 @SpringBootApplication
 public class Main {
 
-    public static void main(String[] args) {
+    static void main() {
 
         List<Song> masterOfPuppets = List.of(
                 new Song("Orion", 9_123),
